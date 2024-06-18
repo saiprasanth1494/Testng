@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="examplesuite" parallel="methods" thread-count="2">
+	<test name="testcases">
+		
+		<parameter name="name" value="santh"></parameter>
+		<classes>
+		<class name="testng.Parallel"></class>
+		
+		</classes>
+	</test>
+</suite>
+
+
+        <!--<class name="xmlpractice.Suite1"></class>
+		<class name="xmlpractice.Suite2"></class>
+		<class name="xmlpractice.Suite3"></class>-->
+		
+		<!--<groups>
+			<run>
+				<include name="apple"></include>
+			</run>
+		</groups>-->
+		
+		
+		
+		 
